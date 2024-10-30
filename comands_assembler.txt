@@ -1,0 +1,17 @@
+610
+1
+14//31
+push 1 -2
+pop ax
+push 2 1
+push 2 1
+mul
+out
+push 2 1
+push 1 1
+add
+pop ax
+push 2 1
+push 1 10
+jb 5
+hlt
